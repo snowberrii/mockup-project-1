@@ -4,15 +4,14 @@ body {
   font-family: sans-serif;
 }
 .banner {
-  background-color: #2c9ab7;
+  background-image: url(banner.jpg);
   height: 260px;
   position: relative;
 }
 
 .banner-header {
-  font-size: 45px;
+  font-size: 55px;
   color: white;
-  width: 360px;
   padding-top: 65px;
   padding-left: 200px;
   margin-bottom: 10px;
@@ -47,45 +46,67 @@ body {
 
 .main {
   display: flex;
-  margin-top: 25px;
+  margin: 25px 0 50px;
   padding-left: 200px;
   padding-right: 200px;
-  line-height: 1.5;
+  line-height: 1.6;
+  font-size: 14px;
 }
 
 .article {
   display: flex;
   flex-direction: column;
-  margin-right: 120px;
+  margin-right: 80px;
 }
 
 .article-1-heading {
-  color: #239ab9;
+  font-size: 18px;
 }
 
 .blue-text {
-  color: #5bbed7;
+  color: #239ab9;
 }
 
 .quote {
-  font-size: 20px;
+  font-size: 21px;
+  color: #5bbed7;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .side-bar {
   display: flex;
   flex-direction: column;
-  margin-right: 100px;
+  width: 300px;
 }
 
+.side-bar-heading {
+  margin: 10px 0px 5px;
+}
 .side-bar-1 {
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+
+.side-bar-2 {
+  margin-bottom: 40px;
+}
+
+.side-bar-paragraph-2 {
+  margin-top: 25px;
 }
 
 .side-bar-link {
   text-decoration: none;
 }
 
+.cat-of-the-week-photo {
+  width: 225px;
+  margin-top: 10px;
+}
+
 footer {
-  background-color: #3a3a3a;
+  background-image: url(footer.jpg);
   height: 200px;
   text-align: center;
   font-size: 10px;
@@ -116,6 +137,7 @@ footer {
 }
 .footer-link {
   text-decoration: none;
+  font-weight: bold;
   color: white;
 }
 
