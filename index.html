@@ -1,105 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
+
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="src/styles.css" />
     <title>Homepage</title>
   </head>
+
+  <div class="skip-nav-link">
+    Skip to <a href="#main">main content</a>
+  </div>
+
   <body>
-    <section class="banner">
-      <h1 class="banner-header">KITTIES TO GO!</h1>
-      <p class="banner-slogan">Seattle's premiere drive-thru cat rentals</p>
-    </section>
+    <header>
+      <h1>KITTIES TO GO!</h1>
+      <p>
+        Seattle's premiere drive-thru <br />
+        cat rentals
+      </p>
+    </header>
 
-    <ul class="menu">
-      <li><a href="#">About</a></li>
-      <li><a href="#">Rates</a></li>
-      <li><a href="#">Liability Release</a></li>
-      <li><a href="#">Kitty Profiles</a></li>
-      <li><a href="#">Book a Cat</a></li>
-    </ul>
+    <nav>
+      <ul>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Rates</a></li>
+        <li><a href="#">Liability Release</a></li>
+        <li><a href="#">Kitty Profiles</a></li>
+        <li><a href="#">Book a Cat</a></li>
+      </ul>
+    </nav>
 
-    <div class="main">
-      <div class="article">
-        <div class="article-1">
-          <h3 class="article-1-heading blue-text">
+    <main id="main">
+      <section>
+        <article class="article-1">
+          <h2 class="blue">
             Cat ipsum dolor sit amet, find something else more interesting, so
             catty ipsum mesmerizing birds sleep on my human's head.
-          </h3>
-          <p class="article-1-paragraph">
+          </h2>
+          <p>
             Cat ipsum dolorsit amet, find something else more interesting, so
             catty ipsum mesmerizing birds sleep on my human's head.
-            <span class="blue-text">Hide head under blanket</span> so no one can
-            see stares at human while pushing stuff off a table. Cat not kitten
+            <span class="blue">Hide head under blanket</span> so no one can see
+            stares at human while pushing stuff off a table. Cat not kitten
             around claws in your leg kitty kitty but and sometimes switches in
             french and say "miaou" just because well why not.
           </p>
-        </div>
+        </article>
 
-        <div class="blue-text quote">
+        <blockquote>
           Please stop looking at your phone an pet me. Lounge in the doorway eat
           and then sleep on your face meowwww meowwww &mdash; <i>Jerymy</i>
-        </div>
+        </blockquote>
 
-        <div class="article-2">
-          <h3 class="article-2-heading">THE KITTIES TO GO STORY</h3>
-          <p class="article-2-paragraph">
+        <article class="article-2">
+          <h2>THE KITTIES TO GO STORY</h2>
+          <p>
             Fall asleep on the washing machine snuggles up to shoulders or knees
             and purrs you to sleep. Eat prawns daintily with a claw then lick
             paws clean wash down prawns with a lap of carnation milk then
-            <span class="blue-text">retire to the warmest spot</span> on the
+            <span class="blue">retire to the warmest spot</span> on the
             couch to claw at the fabric before taking a catnap attempt to leap
             between furniture but woefully miscalibrate and bellyflop onto the
             floor; what's your problem? I meant to do that now i shall wash
             myself intently cough and swat a dog.
           </p>
-          <p class="article-2-paragraph">
+          <p>
             Fall over dead (not really but gets sypathy) fooled again thinking
             the dog likes me. Jump launch to pounce upon little yarn mouse, bare
             fangs at toy run hide in the litter box until treats are fad hiss at
             vacuum cleaner and always hungry for lie on your belly and purr when
             you are asleep stretch.
           </p>
-        </div>
-      </div>
+        </article>
+      </section>
 
-      <div class="side-bar">
-        <div class="side-bar-1">
-          <h3 class="side-bar-heading">CATS IN THE NEWS</h3>
-          <p class="side-bar-paragraph-1">
+      <aside>
+        <h2>CATS IN THE NEWS</h2>
+        <article>
+          <p>
             Chew iPad power cord why must they do that, grab pompom in mouth and
             put in water dish.
           </p>
-          <a href="#" class="side-bar-link blue-text" target="_blank">
+          <a href="#" class="side-bar-link blue" target="_blank">
             Find out more >>
           </a>
+        </article>
 
-          <p class="side-bar-paragraph-2">
+        <article>
+          <p>
             Chew iPad power cord why must they do that, grab pompom in mouth and
             put in water dish.
           </p>
-          <a href="#" class="side-bar-link blue-text" target="_blank">
+          <a href="#" class="side-bar-link blue" target="_blank">
             Find out more >>
           </a>
-        </div>
+        </article>
 
-        <div class="side-bar-2">
-          <h3 class="side-bar-heading">CAT OF THE WEEK</h3>
-          <img
-            src="src/cat-of-the-week.jpg"
-            alt="white kitten with gray stripe staring ahead"
-            class="cat-of-the-week-photo"
+        <h2>CAT OF THE WEEK</h2>
+        <article>
+          <img 
+          alt="white kitten with gray stripe staring ahead" 
+          class="cat-of-the-week-photo" 
+          src="src/cat-of-the-week.jpg" 
+          srcset="src/cat-of-the-week.jpg 1000w"
+          sizes="(max-width: 600px) 600px, 800px"
           />
-          <p class="side-bar-paragraph">
+          <p>
             Stare at imaginary bug love blinks and purr purr purr purr.
           </p>
-          <a href="#" class="side-bar-link blue-text" target="_blank">
+          <a href="#" class="side-bar-link blue" target="_blank">
             Book Now >>
           </a>
-        </div>
-      </div>
-    </div>
+        </article>
+      </aside>
+    </main>
 
     <footer>
       <img
@@ -108,19 +123,16 @@
         id="cat-logo"
       />
 
-      <div class="footer-text">
-        Aborpos nisto inci tet aut que volupti beruptiberro to ex <br />
+      <p>
+        Aborpos nisto inci tet aut que volupti beruptiberro to ex
         esseque invenienihil imaximu scideru ptistiusam consequunt
-      </div>
+      </p>
 
-      <ul class="footer-list">
-        <li><a href="#" class="footer-link">Footer link 1</a></li>
-        <li>/</li>
-        <li><a href="#" class="footer-link">Footer link 2</a></li>
-        <li>/</li>
-        <li><a href="#" class="footer-link">Footer link 3</a></li>
-        <li>/</li>
-        <li><a href="#" class="footer-link">Footer link 4</a></li>
+      <ul class="footer-link">
+        <li><a href="#" >Footer link 1</a></li>
+        <li><a href="#" >Footer link 2</a></li>
+        <li><a href="#" >Footer link 3</a></li>
+        <li><a href="#" >Footer link 4</a></li>
       </ul>
 
       <ul class="copyright">
@@ -128,6 +140,7 @@
         <li>|</li>
         <li>Seattle, WA</li>
       </ul>
+
     </footer>
   </body>
 </html>
